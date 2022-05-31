@@ -64,7 +64,7 @@ transform = Transform( 3.53553, 0, 3.53553, 0, 0.5, 0, -3.53553, 0, 3.53553, 0, 
 shape = SubResource( 15 )
 
 [node name="BlueBox" type="CSGBox" parent="Node"]
-transform = Transform( 1, 0, 0, 0, 0.132625, 0, 0, 0, 2.05673, 2.3202, 0.0866261, -0.623496 )
+transform = Transform( 0.707107, 0, 1.45433, 0, 0.132625, 0, -0.707107, 0, 1.45433, 2.3202, 0.0866261, -0.623496 )
 material_override = SubResource( 8 )
 
 [node name="StaticBody" type="StaticBody" parent="Node/BlueBox"]
@@ -73,7 +73,7 @@ material_override = SubResource( 8 )
 shape = SubResource( 11 )
 
 [node name="GreenBox" type="CSGBox" parent="Node"]
-transform = Transform( 0.773606, 0, 0, 0, 2.85462, 0, 0, 0, 0.159743, -2.46424, 1.33426, -0.198046 )
+transform = Transform( 0.547022, 0, 0.112955, 0, 2.85462, 0, -0.547022, 0, 0.112955, -2.46424, 1.33426, -0.198046 )
 height = 0.852807
 material = SubResource( 12 )
 
@@ -83,7 +83,7 @@ material = SubResource( 12 )
 shape = SubResource( 13 )
 
 [node name="RedBox" type="CSGBox" parent="Node"]
-transform = Transform( 1.65731, 0, 0, 0, 0.405411, 0, 0, 0, 0.147388, -1.87132, 0.487059, 2.87223 )
+transform = Transform( 1.1719, 0, 0.104219, 0, 0.405411, 0, -1.1719, 0, 0.104219, -1.87132, 0.487059, 2.87223 )
 material = SubResource( 10 )
 
 [node name="StaticBody" type="StaticBody" parent="Node/RedBox"]
